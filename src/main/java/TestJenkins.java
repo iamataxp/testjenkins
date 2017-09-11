@@ -1,0 +1,10 @@
+public class TestJenkins {
+
+    public static void main(String[] args) {
+        System.out.println("Test jenkins");
+    }
+    public String echoName(String name){
+        return name;
+    }
+
+}
