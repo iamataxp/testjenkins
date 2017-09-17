@@ -7,5 +7,5 @@ testGOF
 
 *** Keywords ***
 start
-    ${result}    robot_test_echoName    ../target/jenkins-tester-1.0-SNAPSHOT.jar    "Terry"
+    ${result}    robot_test_echoName    ../FreeGof/target/jenkins-tester-1.0-SNAPSHOT.jar    "Terry"
     Should Be Equal    ${result}    "Terry"
