@@ -1,5 +1,5 @@
 *** Settings ***
-Library           ./FreeGofPYLib.py
+Library           FreeGofPYLib.py
 
 *** Test Cases ***
 testGOF
