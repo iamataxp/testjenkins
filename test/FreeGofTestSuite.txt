@@ -1,0 +1,11 @@
+*** Settings ***
+Library           ./FreeGofPYLib.py
+
+*** Test Cases ***
+testGOF
+    start
+
+*** Keywords ***
+start
+    ${result}    robot_test_echoName    ../target/jenkins-tester-1.0-SNAPSHOT.jar    "Terry"
+    Should Be Equal    ${result}    "Terry"
